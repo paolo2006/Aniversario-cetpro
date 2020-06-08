@@ -1,0 +1,169 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family:arial,helvetica;
+	background: 
+}
+#contenedor {
+	background:white;
+	display: flex;
+}
+header {
+	
+	width: 100%;
+	height: 160px;
+}
+header img {
+	width: 10%;
+	height: auto;
+	padding-top: 15px;
+}
+
+
+
+header h1 {
+	width: 90%;
+	height: 30px;
+	float: right;
+	padding-top: 50px;
+}
+
+.nav{
+	list-style:none;
+	padding:0;
+	background:black;
+	width: 90
+	max-width:1000px;
+	margin:auto;
+}
+.nav li a{
+	text-decoration:none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+.nav li{
+	display:inline-block;
+	text-align: center;
+}
+.nav li a:hover{
+	background:blue;
+}
+	
+#contenido {
+	background: white;
+	width: 100%;
+	height: auto;
+}
+.portada {
+	background: white;
+	width: 100%;
+	height: 600px;
+	padding: 0;
+
+}
+.foto{
+	width: 600px;
+	height: 500px;
+	display:block;
+	margin:auto;
+}
+.h2{
+	width: 100%;
+	height: 25px;
+	font-family: comic sans;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	padding-top: 30px;
+}
+#imagenes {
+	display: flex;
+	justify-content: center;
+	background: #ffffff;
+	width: 100%;
+	height: 230px;
+}
+.img5 {
+	width: 20%;
+	height: 200px;
+	text-align:left;
+	margin: 5px;
+}
+.img6 {
+	width: 20%;
+	height: 200px;
+	text-align:center;
+	margin: 5px;
+}
+.img7 {
+	width: 20%;
+	height: 200px;
+	text-align:right;
+	margin: 5px;
+}
+.section {
+	display: flex;
+	justify-content: center;
+	background: #ffffff;
+	width: 100%;
+	height: 250px;
+
+}
+.articulo1 {
+	width: 20%;
+	height: 200px;
+	text-align: justify;
+	margin: 7px;
+}
+.articulo2 {
+	width: 20%;
+	height: 200px;
+	text-align: center;
+	margin: 7px;
+}
+.articulo3 {
+	width: 20%;
+	height: 200px;
+	text-align: justify;
+	margin: 7px;
+
+}
+
+
+h3 {
+	text-align: center;
+	padding: 10px;
+	font-family: arial black;
+	font-size: 20px;
+	color: #000000;
+}
+p {
+	font-family: arial;
+	font-size: 16px;
+	color: #000000;
+
+}
+hr {
+  	height: 2px;
+ 	width: 100%;
+  	background-color: #000000;
+}
+.footer {
+	width: 100%;
+	height: 40px;
+	background: grey;
+}
+h2 {
+	font-family: arial black;
+	font-size: 14px;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+}
+@media screen and (max-width: 800px) {
